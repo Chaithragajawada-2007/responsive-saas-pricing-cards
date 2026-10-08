@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaS Pricing Plans</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Choose Your Plan</h1>
+        <p>Simple pricing for everyone.</p>
+
+        <div class="toggle-container">
+            <span>Monthly</span>
+
+            <label class="switch">
+                <input type="checkbox" id="billingToggle">
+                <span class="slider"></span>
+            </label>
+
+            <span>Yearly <small>Save 20%</small></span>
+        </div>
+    </header>
+
+    <main class="pricing-container">
+
+        <!-- Basic Plan -->
+        <div class="pricing-card">
+            <h2>Basic</h2>
+            <p class="description">For individuals getting started.</p>
+
+            <div class="price">
+                ₹<span class="amount" data-monthly="499" data-yearly="4799">499</span>
+                <span>/month</span>
+            </div>
+
+            <ul>
+                <li>✓ 5 Projects</li>
+                <li>✓ Basic Analytics</li>
+                <li>✓ Email Support</li>
+                <li>✓ 5 GB Storage</li>
+            </ul>
+
+            <button>Get Started</button>
+        </div>
+
+
+        <!-- Pro Plan -->
+        <div class="pricing-card popular">
+
+            <div class="badge">POPULAR</div>
+
+            <h2>Pro</h2>
+            <p class="description">For growing teams and businesses.</p>
+
+            <div class="price">
+                ₹<span class="amount" data-monthly="999" data-yearly="9599">999</span>
+                <span>/month</span>
+            </div>
+
+            <ul>
+                <li>✓ Unlimited Projects</li>
+                <li>✓ Advanced Analytics</li>
+                <li>✓ Priority Support</li>
+                <li>✓ 50 GB Storage</li>
+            </ul>
+
+            <button class="primary-btn">Start Free Trial</button>
+        </div>
+
+
+        <!-- Business Plan -->
+        <div class="pricing-card best">
+
+            <div class="badge">BEST VALUE</div>
+
+            <h2>Business</h2>
+            <p class="description">For large teams and companies.</p>
+
+            <div class="price">
+                ₹<span class="amount" data-monthly="1999" data-yearly="19199">1999</span>
+                <span>/month</span>
+            </div>
+
+            <ul>
+                <li>✓ Unlimited Everything</li>
+                <li>✓ Premium Analytics</li>
+                <li>✓ 24/7 Support</li>
+                <li>✓ 200 GB Storage</li>
+            </ul>
+
+            <button>Contact Sales</button>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
